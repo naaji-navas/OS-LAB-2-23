@@ -1,3 +1,12 @@
+
+
+//SJFS
+//Najid Navas
+//CS B
+//20220064
+
+
+
 #include <stdio.h>
 #include <stdbool.h>
 
@@ -70,3 +79,31 @@ int main() {
 
     return 0;
 }
+
+
+Sample Input
+
+Enter the number of jobs: 4
+Enter arrival time for Job 1: 0
+Enter burst time for Job 1: 8
+Enter arrival time for Job 2: 1
+Enter burst time for Job 2: 4
+Enter arrival time for Job 3: 2
+Enter burst time for Job 3: 9
+Enter arrival time for Job 4: 3
+Enter burst time for Job 4: 5
+
+
+
+Sample Output
+
+SJF Scheduling Order:
+Job ID    Arrival Time    Burst Time    Waiting Time    Completion Time
+1         0               8             0               8
+2         1               4             7               12
+4         3               5             4               17
+3         2               9             6               26
+Average Waiting Time: 4.25
+
+
+

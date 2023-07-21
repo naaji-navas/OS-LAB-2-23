@@ -1,3 +1,9 @@
+
+//Round Robin
+//Najid Navas
+//CS B
+//20220064
+
 #include <stdio.h>
 #include <stdbool.h>
 
@@ -90,3 +96,33 @@ int main() {
 
     return 0;
 }
+
+
+
+
+Sample Input
+
+
+Enter the number of jobs: 4
+Enter the time quantum: 2
+Enter arrival time for Job 1: 0
+Enter burst time for Job 1: 8
+Enter arrival time for Job 2: 1
+Enter burst time for Job 2: 4
+Enter arrival time for Job 3: 2
+Enter burst time for Job 3: 9
+Enter arrival time for Job 4: 3
+Enter burst time for Job 4: 5
+
+
+Sample Output
+Round Robin Scheduling Order:
+Job ID    Arrival Time    Burst Time    Waiting Time    Completion Time
+1         0               8             9               13
+2         1               4             7               10
+3         2               9             9               19
+4         3               5             10              18
+Average Waiting Time: 8.75
+Average Completion Time: 15.00
+
+
