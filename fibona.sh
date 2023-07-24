@@ -5,7 +5,7 @@
 
 # Shell Script Program to print Fibonacci Series
 
-#! /bin/bash
+#!/bin/bash
 echo "Enter the value of n"
 read n
 a=0

@@ -70,23 +70,6 @@ int main(){
 
 
 
-Sample input
-
-Enter the number of processes: 4
-Enter the arrival time and burst time of process 1: 0 8
-Enter the arrival time and burst time of process 2: 1 4
-Enter the arrival time and burst time of process 3: 2 9
-Enter the arrival time and burst time of process 4: 3 5
-
-
-Sample Output
-Process ID    Arrival Time    Burst Time    Waiting Time    Turn Around Time
-1             0               8             0               8
-2             1               4             8               12
-3             2               9             12              21
-4             3               5             21              26
-Average Waiting Time: 10.25
-Average Turn Around Time: 16.75
 
 
 
