@@ -51,7 +51,7 @@ int calculateTimes(struct Process processes[],int n){
 
 int main(){
   int n;
-  printf("Enter the number of processes : " );
+  printf("Enter the number of processes :   " );
   scanf("%d",&n);
   struct Process processes[n];
 
